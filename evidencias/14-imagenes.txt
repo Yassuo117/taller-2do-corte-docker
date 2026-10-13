@@ -1,0 +1,7 @@
+﻿IMAGE                             ID             DISK USAGE   CONTENT SIZE   EXTRA
+biblioteca-api-api:latest         0421c59a9b70        408MB         85.3MB   U    
+mysql:8.0                         7dcddc01f13b        1.1GB          249MB   U    
+python:3.13                       9d72651cf701       1.62GB          431MB        
+ubuntu/python:3.13-25.10_stable   f531f6990197       79.2MB         21.7MB   U    
+ubuntu:24.04                      534baea6a22c        119MB         31.7MB   U    
+ubuntu:latest                     f144425ff09b        162MB         45.6MB        

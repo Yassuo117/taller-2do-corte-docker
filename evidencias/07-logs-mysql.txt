@@ -1,0 +1,66 @@
+﻿biblioteca_mysql  | 2026-10-10 22:23:33+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 8.0.46-1.el9 started.
+biblioteca_mysql  | 2026-10-10 22:23:33+00:00 [Note] [Entrypoint]: Switching to dedicated user 'mysql'
+biblioteca_mysql  | 2026-10-10 22:23:33+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 8.0.46-1.el9 started.
+biblioteca_mysql  | 2026-10-10 22:23:34+00:00 [Note] [Entrypoint]: Initializing database files
+biblioteca_mysql  | 2026-10-10T22:23:34.229997Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+biblioteca_mysql  | 2026-10-10T22:23:34.230184Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.46) initializing of server in progress as process 81
+biblioteca_mysql  | 2026-10-10T22:23:34.245762Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+biblioteca_mysql  | 2026-10-10T22:23:35.103395Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+biblioteca_mysql  | 2026-10-10T22:23:37.516334Z 6 [Warning] [MY-010453] [Server] root@localhost is created with an empty password ! Please consider switching off the --initialize-insecure option.
+biblioteca_mysql  | 2026-10-10 22:23:42+00:00 [Note] [Entrypoint]: Database files initialized
+biblioteca_mysql  | 2026-10-10 22:23:42+00:00 [Note] [Entrypoint]: Starting temporary server
+biblioteca_mysql  | 2026-10-10T22:23:42.621632Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+biblioteca_mysql  | 2026-10-10T22:23:42.626558Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.46) starting as process 131
+biblioteca_mysql  | 2026-10-10T22:23:42.658926Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+biblioteca_mysql  | 2026-10-10T22:23:43.063111Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+biblioteca_mysql  | 2026-10-10T22:23:43.461874Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+biblioteca_mysql  | 2026-10-10T22:23:43.461960Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+biblioteca_mysql  | 2026-10-10T22:23:43.466167Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+biblioteca_mysql  | 2026-10-10T22:23:43.485460Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: /var/run/mysqld/mysqlx.sock
+biblioteca_mysql  | 2026-10-10T22:23:43.485661Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.46'  socket: '/var/run/mysqld/mysqld.sock'  port: 0  MySQL Community Server - GPL.
+biblioteca_mysql  | 2026-10-10 22:23:43+00:00 [Note] [Entrypoint]: Temporary server started.
+biblioteca_mysql  | '/var/lib/mysql/mysql.sock' -> '/var/run/mysqld/mysqld.sock'
+biblioteca_mysql  | Warning: Unable to load '/usr/share/zoneinfo/iso3166.tab' as time zone. Skipping it.
+biblioteca_mysql  | Warning: Unable to load '/usr/share/zoneinfo/leap-seconds.list' as time zone. Skipping it.
+biblioteca_mysql  | Warning: Unable to load '/usr/share/zoneinfo/leapseconds' as time zone. Skipping it.
+biblioteca_mysql  | Warning: Unable to load '/usr/share/zoneinfo/tzdata.zi' as time zone. Skipping it.
+biblioteca_mysql  | Warning: Unable to load '/usr/share/zoneinfo/zone.tab' as time zone. Skipping it.
+biblioteca_mysql  | Warning: Unable to load '/usr/share/zoneinfo/zone1970.tab' as time zone. Skipping it.
+biblioteca_mysql  | 2026-10-10 22:23:47+00:00 [Note] [Entrypoint]: Creating database biblioteca
+biblioteca_mysql  | 2026-10-10 22:23:47+00:00 [Note] [Entrypoint]: Creating user biblioteca_user
+biblioteca_mysql  | 2026-10-10 22:23:47+00:00 [Note] [Entrypoint]: Giving user biblioteca_user access to schema biblioteca
+biblioteca_mysql  | 
+biblioteca_mysql  | 2026-10-10 22:23:47+00:00 [Note] [Entrypoint]: /usr/local/bin/docker-entrypoint.sh: running /docker-entrypoint-initdb.d/001_init.sql
+biblioteca_mysql  | 
+biblioteca_mysql  | 
+biblioteca_mysql  | 2026-10-10 22:23:48+00:00 [Note] [Entrypoint]: Stopping temporary server
+biblioteca_mysql  | 2026-10-10T22:23:48.038093Z 15 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.0.46).
+biblioteca_mysql  | 2026-10-10T22:23:49.514926Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.46)  MySQL Community Server - GPL.
+biblioteca_mysql  | 2026-10-10 22:23:50+00:00 [Note] [Entrypoint]: Temporary server stopped
+biblioteca_mysql  | 
+biblioteca_mysql  | 2026-10-10 22:23:50+00:00 [Note] [Entrypoint]: MySQL init process done. Ready for start up.
+biblioteca_mysql  | 
+biblioteca_mysql  | 2026-10-10T22:23:50.411656Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+biblioteca_mysql  | 2026-10-10T22:23:50.417237Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.46) starting as process 1
+biblioteca_mysql  | 2026-10-10T22:23:50.433050Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+biblioteca_mysql  | 2026-10-10T22:23:50.874250Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+biblioteca_mysql  | 2026-10-10T22:23:51.264917Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+biblioteca_mysql  | 2026-10-10T22:23:51.265012Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+biblioteca_mysql  | 2026-10-10T22:23:51.269858Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+biblioteca_mysql  | 2026-10-10T22:23:51.290802Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+biblioteca_mysql  | 2026-10-10T22:23:51.291084Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.46'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+biblioteca_mysql  | 2026-10-13 16:36:10+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 8.0.46-1.el9 started.
+biblioteca_mysql  | 2026-10-13 16:36:11+00:00 [Note] [Entrypoint]: Switching to dedicated user 'mysql'
+biblioteca_mysql  | 2026-10-13 16:36:11+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 8.0.46-1.el9 started.
+biblioteca_mysql  | '/var/lib/mysql/mysql.sock' -> '/var/run/mysqld/mysqld.sock'
+biblioteca_mysql  | 2026-10-13T16:36:12.552086Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+biblioteca_mysql  | 2026-10-13T16:36:12.557289Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.46) starting as process 1
+biblioteca_mysql  | 2026-10-13T16:36:12.570712Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+biblioteca_mysql  | 2026-10-13T16:36:13.299804Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+biblioteca_mysql  | 2026-10-13T16:36:13.621687Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+biblioteca_mysql  | 2026-10-13T16:36:13.657628Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+biblioteca_mysql  | 2026-10-13T16:36:13.714775Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+biblioteca_mysql  | 2026-10-13T16:36:13.714866Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+biblioteca_mysql  | 2026-10-13T16:36:13.721457Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+biblioteca_mysql  | 2026-10-13T16:36:13.757729Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+biblioteca_mysql  | 2026-10-13T16:36:13.758047Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.46'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.

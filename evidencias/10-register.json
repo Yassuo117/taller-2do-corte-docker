@@ -1,0 +1,11 @@
+﻿{
+    "resultado":  "usuario registrado correctamente",
+    "token_recibido":  "eyJhbGciOiJIUzI1NiIs...[OCULTO]",
+    "user":  {
+                 "id":  1,
+                 "name":  "estudiante-taller",
+                 "email":  "taller-practica@example.com",
+                 "role":  "student",
+                 "created_at":  "0001-01-01T00:00:00Z"
+             }
+}

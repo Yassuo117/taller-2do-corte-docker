@@ -1,0 +1,12 @@
+﻿> Copy-Item .env.example .env
+Archivo .env creado/verificado localmente.
+
+> Variables configuradas (JWT_SECRET y DB_PASSWORD se ocultan en la evidencia)
+DB_HOST=mysql
+DB_PORT=3306
+DB_USER=biblioteca_user
+DB_PASSWORD=[CONFIGURADA]
+DB_NAME=biblioteca
+JWT_SECRET=[CONFIGURADO]
+JWT_EXPIRATION_HOURS=24
+APP_PORT=8080

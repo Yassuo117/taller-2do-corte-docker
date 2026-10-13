@@ -1,0 +1,11 @@
+﻿> docker --version
+Docker version 29.8.2, build 7fc2dff
+
+> docker compose version
+Docker Compose version v5.5.1
+
+> git --version
+git version 2.55.0.windows.4
+
+> git rev-parse HEAD
+7706425c7980355067f603868ec662f4058ff053

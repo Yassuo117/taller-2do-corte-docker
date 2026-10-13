@@ -1,0 +1,6 @@
+﻿Practica Docker - biblioteca-api
+Inicio: 2026-10-13 11:36:11
+Fin: 2026-10-13 11:37:18
+Duracion: 1.12 minutos
+Resultado: API y MySQL funcionando; health, register/login, books y Swagger verificados.
+Nota: los tokens JWT completos fueron ocultados en las evidencias.

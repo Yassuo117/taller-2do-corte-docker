@@ -1,0 +1,68 @@
+﻿[
+    {
+        "id":  1,
+        "title":  "Cien años de soledad",
+        "author":  "Gabriel García Márquez",
+        "isbn":  "9780307474728",
+        "category":  "Novela",
+        "cover_url":  "",
+        "total_copies":  3,
+        "available_copies":  3,
+        "created_at":  "2026-10-10T22:23:47Z"
+    },
+    {
+        "id":  2,
+        "title":  "Clean Code",
+        "author":  "Robert C. Martin",
+        "isbn":  "9780132350884",
+        "category":  "Tecnología",
+        "cover_url":  "",
+        "total_copies":  2,
+        "available_copies":  2,
+        "created_at":  "2026-10-10T22:23:47Z"
+    },
+    {
+        "id":  3,
+        "title":  "El principito",
+        "author":  "Antoine de Saint-Exupéry",
+        "isbn":  "9780156012195",
+        "category":  "Infantil",
+        "cover_url":  "",
+        "total_copies":  4,
+        "available_copies":  4,
+        "created_at":  "2026-10-10T22:23:47Z"
+    },
+    {
+        "id":  4,
+        "title":  "Sapiens",
+        "author":  "Yuval Noah Harari",
+        "isbn":  "9780062316097",
+        "category":  "Historia",
+        "cover_url":  "",
+        "total_copies":  2,
+        "available_copies":  2,
+        "created_at":  "2026-10-10T22:23:47Z"
+    },
+    {
+        "id":  6,
+        "title":  "The Go Programming Language (Addison-Wesley Professional Computing Series) ",
+        "author":  "Alan Donovan",
+        "isbn":  "",
+        "category":  "Tecnología",
+        "cover_url":  "",
+        "total_copies":  2,
+        "available_copies":  2,
+        "created_at":  "2026-10-10T22:23:47Z"
+    },
+    {
+        "id":  5,
+        "title":  "The Pragmatic Programmer",
+        "author":  "Andrew Hunt",
+        "isbn":  "9780135957059",
+        "category":  "Tecnología",
+        "cover_url":  "",
+        "total_copies":  2,
+        "available_copies":  2,
+        "created_at":  "2026-10-10T22:23:47Z"
+    }
+]

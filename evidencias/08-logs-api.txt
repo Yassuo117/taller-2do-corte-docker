@@ -1,0 +1,15 @@
+> docker compose logs api
+> Extracto relevante de la salida real
+
+biblioteca_api  | 2026/10/13 16:36:10 No se encontró archivo .env, usando variables de entorno del sistema
+biblioteca_api  | 2026/10/13 16:36:10 Intento 1/10: no se pudo conectar a MySQL (dial tcp 172.18.0.3:3306: connect: connection refused)
+biblioteca_api  | 2026/10/13 16:36:13 Intento 2/10: no se pudo conectar a MySQL (dial tcp 172.18.0.3:3306: connect: connection refused)
+biblioteca_api  | 2026/10/13 16:36:16 Conexión a MySQL establecida correctamente
+biblioteca_api  | 2026/10/13 16:36:16 Servidor escuchando en el puerto 8080
+biblioteca_api  | 2026/10/13 16:36:16 Documentación Swagger disponible en http://localhost:8080/swagger/index.html
+biblioteca_api  | [GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1
+biblioteca_api  | [GIN-debug] GET    /health                   --> biblioteca-api/internal/handler.SetupRoutes.func1
+biblioteca_api  | [GIN-debug] POST   /api/auth/register        --> biblioteca-api/internal/handler.(*AuthHandler).Register-fm
+biblioteca_api  | [GIN-debug] POST   /api/auth/login           --> biblioteca-api/internal/handler.(*AuthHandler).Login-fm
+biblioteca_api  | [GIN-debug] GET    /api/books                --> biblioteca-api/internal/handler.(*BookHandler).List-fm
+biblioteca_api  | [GIN-debug] Listening and serving HTTP on :8080

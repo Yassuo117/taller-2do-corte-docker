@@ -1,0 +1,34 @@
+EJECUCION: docker compose up --build -d
+
+#1 [internal] load local bake definitions
+#1 DONE 0.1s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 361B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/library/golang:1.26-alpine
+#3 DONE 2.2s
+
+#5 [internal] load .dockerignore
+#5 DONE 0.0s
+
+#6 [builder 1/6] FROM docker.io/library/golang:1.26-alpine
+#6 DONE 0.0s
+
+#7 [internal] load build context
+#7 transferring context: 3.67kB done
+#7 DONE 0.0s
+
+#8 [builder 6/6] RUN go build -o biblioteca-api ./cmd/api
+#8 CACHED
+
+#15 exporting to image
+#15 naming to docker.io/library/biblioteca-api-api:latest done
+#15 DONE 0.2s
+
+Image biblioteca-api-api Built
+Container biblioteca_api Running
+Container biblioteca_mysql Running
+Container biblioteca_mysql Waiting
+Container biblioteca_mysql Healthy

@@ -1,0 +1,4 @@
+﻿> GET http://localhost:8080/swagger/index.html
+HTTP 200 OK
+Content-Type: text/html; charset=utf-8
+Bytes recibidos: 3728

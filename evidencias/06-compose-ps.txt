@@ -1,0 +1,5 @@
+﻿> docker compose ps
+
+NAME               IMAGE                                                                     COMMAND                  SERVICE   CREATED      STATUS                   PORTS
+biblioteca_api     sha256:aca0b86c433134b86df40f2a2904a01f471baa18ebed8d51623b1513f442c870   "./biblioteca-api"       api       2 days ago   Up 8 seconds             0.0.0.0:8080->8080/tcp, [::]:8080->8080/tcp
+biblioteca_mysql   mysql:8.0                                                                 "docker-entrypoint.sh"    mysql     2 days ago   Up 8 seconds (healthy)   0.0.0.0:3306->3306/tcp, [::]:3306->3306/tcp
